@@ -7,7 +7,7 @@ aws s3 cp JPvideos.csv s3://data-eng-project-yt-data-bronze-layer/youtube/raw_st
 aws s3 cp KRvideos.csv s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics/region=kr/
 aws s3 cp MXvideos.csv s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics/region=mx/
 aws s3 cp RUvideos.csv s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics/region=ru/
-aws s3 cp USvideos.csv s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics/ /
+aws s3 cp USvideos.csv s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics/region=us/
 
 aws s3 cp CA_category_id.json s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics_reference_data/region=ca/
 aws s3 cp DE_category_id.json s3://data-eng-project-yt-data-bronze-layer/youtube/raw_statistics_reference_data/region=de/
