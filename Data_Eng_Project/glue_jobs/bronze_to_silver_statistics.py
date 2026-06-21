@@ -235,7 +235,7 @@ else:
     # Convert back to DynamicFrame for Glue-native write
     dynamic_frame = DynamicFrame.fromDF(df, glueContext, "silver_statistics")
 
-    sink = glueContext.getSink(
+    sink = glueContext.g etSink(
         connection_type="s3",
         path=SILVER_PATH,
         enableUpdateCatalog=True,
